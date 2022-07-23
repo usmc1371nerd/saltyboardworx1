@@ -1,0 +1,43 @@
+/* square grid styles */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -35px;
+}
+
+.square > .img-wrapper img {
+    width:275px;
+    height: 175px;
+    object-fit: cover;
+
+}
+
+.square > .img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square > .square-text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square > .square-text-wrapper h1{
+    color:#cea135
+}
